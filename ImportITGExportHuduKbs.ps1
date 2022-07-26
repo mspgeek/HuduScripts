@@ -79,7 +79,7 @@ function Start-ITGlueKbImport {
 
 $MainCSVExportPath = (Read-Host -Prompt "Enter the path to your CSV").replace('"','')
 $RootFolderExportPath = (Read-Host -Prompt "Enter the path to your documents exported from IT Glue").replace('"','')
-$HuduBaseUrl = Read-Host "Enter your Hudu URL without the trailing space (/)"
+$HuduBaseUrl = Read-Host -Prompt "Enter your Hudu URL without the trailing space (/)"
 $HuduAPIKey = Read-Host -Prompt "Enter your Hudu API key"
 
 #### End of functions, modules, and starting variables ####
